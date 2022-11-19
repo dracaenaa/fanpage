@@ -1,12 +1,12 @@
 /* format */
 
-header {
+header nav {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
 }
 
-#desc, #nicknames {
+#nicknames {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -29,6 +29,18 @@ header {
 }
 
 #youtube-link {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -60,9 +72,9 @@ a, li, p {
     text-decoration: none;
 }
 
-header img {
+#main img {
     width: 1000px;
-    border-radius: 1%;;
+    border-radius: 1%;
 }
 
 #photo-expansions .photos {
@@ -74,4 +86,7 @@ header img {
     color: rgb(21, 0, 39);
 }
 
-
+#icon img {
+    width: 80px;
+    border-radius: 50%;
+}
