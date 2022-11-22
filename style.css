@@ -73,6 +73,18 @@ footer a {
     width: 60vw;
 }
 
+/* ol {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+} */
+
+#top-songs {
+    display: flex;
+    flex-direction: column;
+}
+
 
 /* styling */
 
