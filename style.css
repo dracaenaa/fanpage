@@ -63,7 +63,7 @@ p {
 footer a {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-end;
     gap: 5px;
     margin-top: 50px;
     margin-right: 20px;
@@ -134,5 +134,4 @@ footer {
     border-top-width: 2px;
     border-top-style: solid;
     width: 90vw;
-    margin-top: 50px;
 }
